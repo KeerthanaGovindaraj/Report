@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="report.css">
+<h1 id="title"> Food Survey Form. </h1>
+<div id="form-outer">
+  <p id="description"> Let us know your taste in food. </p>
+
+    <br><br><label for="favoritefood" id="name-labell"> Favorite Food: </label>
+    <input type="text" id="favoritefood" name="favoritefood" placeholder=" Favorite food" required>
+
+    <br> <br> <label for="dinner"> What option best describes your ideal food for dinner.</label>
+    <select id="dropdown" name="dinner" class="dropdown">
+    <option> Select an option </option> 
+    <option value="friedegg"> Bread and Fried egg. </option>
+    <option value="Okro"> Noodles </option>
+    <option value="Tea"> Bread and tea. </option>
+    <option value="Egusi"> chapati/Roti </option>
+    <option value="Pancakes"> Pancakes. </option>
+  </select>
+    <br> <br><label for="cooking">Which one you are? </label>
+    <li class="radio">
+      <label><input type="radio" value="1" name ="rad"> vegitarian</label</li>
+               <li class="radio">
+                 <label><input type="radio" value="2" name ="rad">Non-vegitarian</label></li>
+    <li class="radio">
+      <label><input type="radio" value ="3" name ="rad">Eggtarian</label></li>
+    <li class="radio">
+      <label><input type="radio" value ="4" name ="rad"> It depends </label></li>
+
+    <br>
+    <label for="Pastries">Desserts that you like. (Check all that apply) </label>
+    <li class="checkbox">
+      <label><input type="checkbox" name="pastries" value ="1">mojito </label> </li <li class="checkbox">
+    <label><input type="checkbox" name="pastries" value ="2"> Ice-creams </label></li>
+    <li class="checkbox">
+      <label><input type="checkbox" name="pastries" value ="3"> cakes </label>
+      <li>
+        <li class="checkbox">
+          <label><input type="checkbox" name="pastries" value ="4">FreshJuice</label> </li>
+        <li class="checkbox">
+          <label><input type="checkbox" name="pastries" value ="5"> pasteries</label></li>
+        <li class="checkbox">
+          <label><input type="checkbox" name="pastries" value ="6">  soups</label>
+               </li>
+             
+      
+        <br> <br>
+        <button id="submit" type="submit"> Submit </button>
+  </form>
+
+</div>
+</body>
+</html>

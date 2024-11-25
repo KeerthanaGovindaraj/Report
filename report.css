@@ -1,0 +1,51 @@
+html,
+body {
+  background: rgb(218, 225, 226);
+  text-align: center;
+  min-width: 320px;
+  font-family: Comic Sans MS, arial, Sans-sarif;
+}
+
+h1 {
+  font-weight: bold;
+  color: rgba(22, 196, 121, 0.571);
+}
+
+#form-outer {
+  background-color: rgb(22, 184, 170);
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: rgb(177, 14, 14);
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #7cafda;
+  border-radius: 2px;
+}
+
+li {
+  list-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
